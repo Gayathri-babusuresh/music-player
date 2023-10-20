@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgb(111, 31, 133), black);
+}
+
+.wholecontainer{
+    background-color: rgb(128, 71, 182);
+    padding: 20px;
+    box-shadow: 8px 9px 25px 10px;
+    border-radius: 10px;
+    
+}
+
+.player {
+    text-align: center; 
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(167, 109, 193);
+    border-radius: 20%;
+    
+    
+    
+}
+ 
+
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#image-container img {
+    margin: 5% 10% 10%;
+    width: 490px;
+    height: 350px;
+    border-radius: 30px;
+    
+}
